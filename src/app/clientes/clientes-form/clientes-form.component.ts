@@ -11,6 +11,7 @@ import { FormsModule } from '@angular/forms';
 })
 export class ClientesFormComponent implements OnInit{
 
+
   cliente: Cliente;
 
   constructor() {
@@ -23,7 +24,7 @@ export class ClientesFormComponent implements OnInit{
 
   }
 
-  clicar(){
+  onSubmit() {
     console.log(this.cliente);
-  }
+    }
 }
