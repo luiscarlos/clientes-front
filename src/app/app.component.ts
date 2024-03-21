@@ -4,6 +4,7 @@ import { NavbarComponent } from './template/navbar/navbar.component';
 import { SidebarComponent } from './template/sidebar/sidebar.component';
 import { HomeComponent } from "./home/home.component";
 import { ClientesFormComponent } from './clientes/clientes-form/clientes-form.component';
+import { ClientesService } from './clientes.service';
 
 @Component({
     selector: 'app-root',
@@ -14,4 +15,9 @@ import { ClientesFormComponent } from './clientes/clientes-form/clientes-form.co
 })
 export class AppComponent {
   title = 'clientes-front';
+
+
+
 }
+
+
